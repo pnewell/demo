@@ -9,7 +9,8 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "addresses": [
-    { "id": 1, "civicNumber" : "123" , "boxBagNumber" : "123" , "streetName" : "Sunnyville" , "stationName" : "Station1" , "streetType" : "1" , "mailMode" : "1" , "direction" : "234" , "unitNumber" : "1A" , "city" : "Toronto" , "province" : "Ontario" , "postalCode" : "M4B 1B4" , "state" : "" , "zipCode" : "" , "country" : "Canada" },
-    { "id": 2, "civicNumber" : "234" , "boxBagNumber" : "234" , "streetName" : "Johnstown" , "stationName" : "Station2" , "streetType" : "1" , "mailMode" : "1" , "direction" : "234" , "unitNumber" : "1A" , "city" : "Toronto" , "province" : "Ontario" , "postalCode" : "M4B 1B4" , "state" : "" , "zipCode" : "" , "country" : "Canada" }
+    { "mailingAddressType": "Civic CDN", "civicNumber" : "123" , "streetName" : "Sunnyville" , "streetType" : "1" , "direction" : "N" , "unitNumber" : "1A" , "city" : "Toronto" , "country" : "Canada" },
+    { "mailingAddressType": "Rural CDN", "boxBagNumber" : "432244" , "stationName" : "Roadshouse" , "mailMode" : "1" , "direction" : "Not Applicable" , "city" : "Toronto" , "country" : "Canada" },
+    { "mailingAddressType": "Civic US", "civicNumber" : "234" , "streetName" : "Johnstown" , "streetType" : "2" , "direction" : "S" , "unitNumber" : "3F" , "city" : "New York" , "country" : "United States" }
   ]
 }

@@ -8,7 +8,7 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "addresses": [
+    { "civicNumber" : "123" , "boxBagNumber" : "123" , "streetName" : "Sunnyville" , "stationName" : "Station1" , "streetType" : "1" , "mailMode" : "1" , "direction" : "234" , "unitNumber" : "1A" , "city" : "Toronto" , "province" : "Ontario" , "postalCode" : "M4B 1B4" , "state" : "" , "zipCode" : "" , "country" : "Canada" }
+  ]
 }

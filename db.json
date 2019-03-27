@@ -19,6 +19,6 @@
     { "clientName" : "56789" , "percentAllocationCapitalPreservation" : "90" , "percentAllocationGrowth" : "5" , "percentAllocationIncome" : "5" , "percentAllocationLow" : "10" , "percentAllocationLowMedium" : "60" , "percentAllocationMedium" : "10" , "percentAllocationMediumHigh" : "10" , "percentAllocationHigh" : "10" , "selectTimeHorizon" : "6-9 years" }
   ],
   "beneficiaries": [
-    { "clientName" : "12345" , "beneficiaries" : { "primary" : { "relationship" : "Child" , "allocation" : "100" , "firstName" : "John" , "middleInitial" : "R" , "lastName" : "Smith" }, "contingent" : { "relationship" : "Grandchild" , "allocation" : "100" , "firstName" : "Sam" , "middleInitial" : "N" , "lastName" : "Smith" } } }
+    { "clientName" : "12345" , "beneficiaries" : { "primary" : [ { "relationship" : "Child" , "allocation" : "100" , "firstName" : "John" , "middleInitial" : "R" , "lastName" : "Smith" } ] , "contingent" : [ { "relationship" : "Grandchild" , "allocation" : "100" , "firstName" : "Sam" , "middleInitial" : "N" , "lastName" : "Smith" } ] } }
   ]
 }

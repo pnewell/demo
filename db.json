@@ -1,25 +1,14 @@
 {
   "data": [
-    { "id": 1, "field": "" },
-    { "id": 2, "field": "null" }
+    { "id": 1, "field": "Post 1" },
+    { "id": 2, "field": "Post 2" },
+    { "id": 3, "field": "Post 3" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "addresses": [
-    { "type":"Primary" , "mailingAddressType": "Civic CDN", "civicNumber" : "123" , "streetName" : "Sunnyville" , "streetType" : "1" , "direction" : "N" , "unitNumber" : "1A" , "city" : "Toronto" , "country" : "Canada" },
-    { "type":"Joint 1" , "mailingAddressType": "Rural CDN", "boxBagNumber" : "432244" , "stationName" : "Roadshouse" , "mailMode" : "1" , "direction" : "Not Applicable" , "city" : "Toronto" , "country" : "Canada" },
-    { "type":"Joint 2" , "mailingAddressType": "Civic US", "civicNumber" : "234" , "streetName" : "Johnstown" , "streetType" : "2" , "direction" : "S" , "unitNumber" : "3F" , "city" : "New York" , "country" : "United States" }
-  ],
-  "kyc": [
-    { "clientName" : "12345" , "percentAllocationCapitalPreservation" : "10" , "percentAllocationGrowth" : "80" , "percentAllocationIncome" : "10" , "percentAllocationLow" : "10" , "percentAllocationLowMedium" : "30" , "percentAllocationMedium" : "60" , "percentAllocationMediumHigh" : "0" , "percentAllocationHigh" : "0" , "selectTimeHorizon" : "4-5 years" },
-    { "clientName" : "34567" , "percentAllocationCapitalPreservation" : "20" , "percentAllocationGrowth" : "20" , "percentAllocationIncome" : "60" , "percentAllocationLow" : "0" , "percentAllocationLowMedium" : "0" , "percentAllocationMedium" : "0" , "percentAllocationMediumHigh" : "0" , "percentAllocationHigh" : "100" , "selectTimeHorizon" : "1-3 years" },
-    { "clientName" : "56789" , "percentAllocationCapitalPreservation" : "90" , "percentAllocationGrowth" : "5" , "percentAllocationIncome" : "5" , "percentAllocationLow" : "10" , "percentAllocationLowMedium" : "60" , "percentAllocationMedium" : "10" , "percentAllocationMediumHigh" : "10" , "percentAllocationHigh" : "10" , "selectTimeHorizon" : "6-9 years" }
-  ],
-  "beneficiaries": [
-    { "clientName" : "12345" , "beneficiaries" : { "primary" : [ { "relationship" : "Child" , "allocation" : "100" , "firstName" : "John" , "middleInitial" : "R" , "lastName" : "Smith" } ] , "contingent" : [ { "relationship" : "Grandchild" , "allocation" : "100" , "firstName" : "Sam" , "middleInitial" : "N" , "lastName" : "Smith" } ] } },
-    { "clientName" : "34567" , "beneficiaries" : { "primary" : [ { "relationship" : "Child" , "allocation" : "100" , "firstName" : "John" , "middleInitial" : "R" , "lastName" : "Smith" } ] , "contingent" : [ { "relationship" : "Grandchild" , "allocation" : "100" , "firstName" : "Sam" , "middleInitial" : "N" , "lastName" : "Smith" } ] } },
-    { "clientName" : "56789" , "beneficiaries" : { "primary" : [ { "relationship" : "Child" , "allocation" : "100" , "firstName" : "John" , "middleInitial" : "R" , "lastName" : "Smith" } ] , "contingent" : [ { "relationship" : "Grandchild" , "allocation" : "100" , "firstName" : "Sam" , "middleInitial" : "N" , "lastName" : "Smith" } ] } }
-  ]
+  "profile": {
+    "name": "typicode"
+  }
 }

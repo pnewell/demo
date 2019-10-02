@@ -10,5 +10,9 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "person": {
+    "name": "Amy",
+    "age": 24
   }
 }

@@ -11,8 +11,8 @@
   "profile": {
     "name": "typicode"
   },
-  "person": {
-    "name": "Amy",
-    "age": 24
-  }
+  "persons": [
+    { "ssn": 12345, "name": "Laura", "age": 25 },
+    { "ssn": 12345, "name": "Laura", "age": 25 }
+  ]
 }

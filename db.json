@@ -12,7 +12,7 @@
     "name": "typicode"
   },
   "persons": [
-    { "ssn": 12345, "name": "Laura", "age": 25 },
-    { "ssn": 12345, "name": "Laura", "age": 25 }
+    { "ssn": 12345, "name": "Paul", "age": 28 },
+    { "ssn": 34567, "name": "Laura", "age": 25 }
   ]
 }
